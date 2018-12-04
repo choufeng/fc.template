@@ -16,7 +16,7 @@ fun init koalajs/fc.template -n <function name>
 ```
 
 ## 当前交互选项
-
+|交互|说明|
 |---|---|
 |Function description | 函数说明|
 |Service Name | 服务名称|
