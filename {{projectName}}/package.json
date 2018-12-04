@@ -4,8 +4,12 @@
   "description": "{{description}}",
   "main": "index.js",
   "scripts": {
+    "release": "standard-version",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "standard-version": "^4.4.0"
+  }
 }
