@@ -43,7 +43,7 @@ module.exports = {
       name: 'event',
       message: 'Choose Event',
       'default': '',
-      choices: ['', 'HTTP', 'OSS', 'LOG', 'CRON', 'CDN', 'MNS'],
+      choices: ['NO Event', 'HTTP', 'Timer', 'Log', 'RDS', 'MNSTopic'],
       when: (answer) => {
         return true
       }
