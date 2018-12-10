@@ -17,7 +17,7 @@ module.exports = {
       name: 'runTime',
       message: 'Please select?',
       'default': 'nodejs8',
-      choices: ['nodejs8', 'nodejs6'],
+      choices: ['nodejs8'],
       when: (answer) => {
         return true
       }
