@@ -13,16 +13,6 @@ module.exports = {
       message: 'Please input server name:'
     },
     {
-      type: 'list',
-      name: 'runTime',
-      message: 'Please select?',
-      'default': 'nodejs8',
-      choices: ['nodejs8'],
-      when: (answer) => {
-        return true
-      }
-    },
-    {
       type: 'input',
       name: 'timeout',
       message: 'Set timeout(s):',

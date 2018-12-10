@@ -8,7 +8,7 @@ Resources:
       Properties:
         Description: '{{description}}'
         Handler: index.handler
-        Runtime: {{runTime}}
+        Runtime: nodejs8
         CodeUri: './'
         Timeout: {{timeout}}
         MemorySize: {{memorySize}}

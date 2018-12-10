@@ -1,5 +1,14 @@
 const config = require('./config')
 
-module.exports.handler = function ({{event === 'HTTP' ? 'req, rep, ctx' : 'context, callback'}}) {
+handler ({{event === 'HTTP' ? 'req, rep, ctx' : 'context, callback'}}) {
   {{event === 'HTTP' ? "rep.send('Hello World')" : "callback(null, '')"}}
+}
+
+initializer (context, callback){
+  callback(null, '')
+}
+
+module.exports {
+  handler,
+  initializer
 }
