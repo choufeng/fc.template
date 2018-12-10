@@ -4,6 +4,7 @@
   "description": "{{description}}",
   "main": "index.js",
   "scripts": {
+    "local": "fun local invoke {{serverName}}/{{projectName}}",
     "release": "standard-version",
     "test": "jest"
   },
