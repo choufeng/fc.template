@@ -9,6 +9,18 @@
 |template.yml|函数计算Fun工具配置文件|
 |test.spec.js|测试文件|
 
+
+## 开发
+
+> `npm start` 需要fun工具local的能力支持。 
+
+```
+npm i
+npm start
+```
+
+  
+
 ## 测试
 
 ```

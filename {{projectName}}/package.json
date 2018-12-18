@@ -4,7 +4,7 @@
   "description": "{{description}}",
   "main": "index.js",
   "scripts": {
-    "start": " ews && fun local invoke {{serverName}}/{{projectName}}",
+    "start": "esw && fun local invoke {{serverName}}/{{projectName}}",
     "local": "fun local invoke {{serverName}}/{{projectName}}",
     "release": "standard-version",
     "eslint": "esw -w --clear",
